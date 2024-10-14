@@ -1,9 +1,125 @@
-<!doctype html>
-<html>
-  <head>
-    <title>This is the title of the webpage!</title>
-  </head>
-  <body>
-    <p>This is an example paragraph. Anything in the <strong>body</strong> tag will appear on the page, just like this <strong>p</strong> tag and its contents.</p>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DesiBoomX Games</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #333;
+            color: #fff;
+            margin: 0;
+            text-align: center;
+        }
+
+        header {
+            background-color: #4CAF50;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-family: 'Comic Sans MS', cursive;
+            font-size: 4vw;
+            margin: 0;
+            color: #fff;
+            text-shadow: 2px 2px #000;
+        }
+
+        h2 {
+            font-size: 2vw;
+            color: #e0e0e0;
+        }
+
+        .game-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .game-grid a img {
+            height: 250px;
+            width: 250px;
+            object-fit: cover;
+            border-radius: 15px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .game-grid a img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+        }
+
+        footer {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #222;
+            border-radius: 5px;
+        }
+
+        footer p {
+            font-size: 14px;
+            color: #ccc;
+        }
+
+        marquee {
+            font-size: 1.5vw;
+            background-color: #444;
+            padding: 10px;
+            color: #f9f9f9;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to DesiBoomX Games</h1>
+        <h2>Click on a game to start playing and enjoy!</h2>
+    </header>
+
+    <section class="game-grid">
+        <a href="Worms-Zone/" target="_blank">
+            <img src="https://img.gamepix.com/games/worms-zone/icon/worms-zone.png?w=105" alt="Worms Zone">
+        </a>
+
+        <a href="Flappy-Bird-Classic/" target="_blank">
+            <img src="https://img.gamepix.com/games/flappy-bird-classic/icon/flappy-bird-classic.png?w=105" alt="Flappy Bird Classic">
+        </a>
+
+        <a href="Cut-the-Rope-2/" target="_blank">
+            <img src="https://img.gamepix.com/games/cut-the-rope-2/icon/cut-the-rope-2.png?w=105" alt="Cut the Rope 2">
+        </a>
+
+        <a href="Cut-the-Rope-Magic/" target="_blank">
+            <img src="https://img.gamepix.com/games/cut-the-rope-magic/icon/cut-the-rope-magic.png?w=105" alt="Cut the Rope Magic">
+        </a>
+
+        <a href="Rock-Paper-Scissor/" target="_blank">
+            <img src="https://img.gamepix.com/games/rock-paper-scissor/icon/rock-paper-scissor.png?w=105" alt="Rock Paper Scissor">
+        </a>
+
+        <a href="Stickman-io/" target="_blank">
+            <img src="https://img.gamepix.com/games/stickman-io/icon/stickman-io.png?w=105" alt="Stickman io">
+        </a>
+
+        <a href="Spider-Evolution-Runner/" target="_blank">
+            <img src="https://img.gamepix.com/games/spider-evolution-runner/icon/spider-evolution-runner.png?w=105" alt="Spider Evolution Runner">
+        </a>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 DesiBoomX Games | All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        document.getElementsByTagName("h1")[0].style.fontSize = "6vw";
+    </script>
+
+</body>
 </html>
