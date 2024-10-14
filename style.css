@@ -57,4 +57,35 @@ button {
         button:hover {
             background-color: #333;
         }
+
+/* Responsive design: Adjust for smaller screens */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 24px;
+        width: 90%; /* Adjust the width for smaller screens */
+    }
+
+    iframe {
+        width: 90%;
+        height: auto;
+    }
+
+    button {
+        width: 90%;
+        font-size: 16px;
+    }
+}
+
+/* Extra small screens (mobile phones) */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 20px;
+        padding: 15px;
+    }
+
+    button {
+        padding: 10px;
+        font-size: 14px;
+    }
+}
 </style>
