@@ -1,0 +1,38 @@
+<style>
+body {
+    font-family: system-ui;
+    background: #8be0d0;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    color: rgb(0, 0, 0);
+    background-color: rgb(73, 120, 111);
+    padding: 20px;
+    border-radius: 40px;
+    width: 80%;
+    margin: 20px auto;
+}
+
+iframe {
+    margin-top: 20px;
+    border: none;
+}
+
+a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: rgb(73, 120, 111);
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+a:hover {
+    background-color: #333;
+}
+</style>
